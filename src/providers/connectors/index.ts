@@ -10,9 +10,11 @@ import mewconnect from "./mewconnect";
 import dcentwallet from "./dcentwallet";
 import bitski from "./bitski";
 import frame from "./frame";
+import platon from "./platon";
 
 export {
   injected,
+  platon,
   walletconnect,
   portis,
   torus,
