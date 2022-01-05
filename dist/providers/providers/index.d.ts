@@ -4,7 +4,6 @@ export declare const WALLETCONNECT: IProviderInfo;
 export declare const PORTIS: IProviderInfo;
 export declare const FORTMATIC: IProviderInfo;
 export declare const TORUS: IProviderInfo;
-export declare const PLATON: IProviderInfo;
 export declare const ARKANE: IProviderInfo;
 export declare const AUTHEREUM: IProviderInfo;
 export declare const BURNERCONNECT: IProviderInfo;

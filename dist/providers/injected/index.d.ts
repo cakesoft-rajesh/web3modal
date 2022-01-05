@@ -1,6 +1,7 @@
 import { IProviderInfo } from "../../helpers";
 export declare const FALLBACK: IProviderInfo;
 export declare const METAMASK: IProviderInfo;
+export declare const PLATON: IProviderInfo;
 export declare const SAFE: IProviderInfo;
 export declare const NIFTY: IProviderInfo;
 export declare const DAPPER: IProviderInfo;
