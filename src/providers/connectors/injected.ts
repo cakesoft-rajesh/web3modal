@@ -7,6 +7,13 @@ const ConnectToInjected = async() => {
     } catch (error) {
       throw new Error('User Rejected')
     }
+  } else if (typeof window.platon !== 'undefined') {
+    provider = window.platon
+    try {
+      await provider.request({ method: 'platon_requestAccounts' })
+    } catch (error) {
+      throw new Error('User Rejected')
+    }
   } else if (window.web3) {
     provider = window.web3.currentProvider
   } else {

@@ -47,12 +47,12 @@ export const METAMASK: IProviderInfo = {
   check: "isMetaMask"
 };
 
-export const PLATON: IProviderInfo = {
+export const SAMURAI: IProviderInfo = {
   id: "injected",
-  name: "PlatOn",
+  name: "Samurai",
   logo: PlatonLogo,
   type: "injected",
-  check: "isPlaton"
+  check: "isSamurai"
 };
 
 export const SAFE: IProviderInfo = {
