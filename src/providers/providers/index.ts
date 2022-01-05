@@ -9,8 +9,6 @@ import ArkaneLogo from "../logos/arkane.svg";
 // @ts-ignore
 import TorusLogo from "../logos/torus.svg";
 // @ts-ignore
-import PlatonLogo from "../logos/platon.png";
-// @ts-ignore
 import AuthereumLogo from "../logos/authereum.svg";
 // @ts-ignore
 import BurnerWalletLogo from "../logos/burnerwallet.png";
@@ -66,14 +64,6 @@ export const TORUS: IProviderInfo = {
   logo: TorusLogo,
   type: "web",
   check: "isTorus"
-};
-
-export const PLATON: IProviderInfo = {
-  id: "platon",
-  name: "PlatOn",
-  logo: PlatonLogo,
-  type: "injected",
-  check: "isPlaton"
 };
 
 export const ARKANE: IProviderInfo = {

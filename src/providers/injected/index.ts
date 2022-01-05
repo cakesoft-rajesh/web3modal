@@ -11,6 +11,8 @@ import NiftyWalletLogo from "../logos/niftyWallet.png";
 // @ts-ignore
 import TrustLogo from "../logos/trust.svg";
 // @ts-ignore
+import PlatonLogo from "../logos/platon.png";
+// @ts-ignore
 import DapperLogo from "../logos/dapper.png";
 // @ts-ignore
 import CoinbaseLogo from "../logos/coinbase.svg";
@@ -43,6 +45,14 @@ export const METAMASK: IProviderInfo = {
   logo: MetaMaskLogo,
   type: "injected",
   check: "isMetaMask"
+};
+
+export const PLATON: IProviderInfo = {
+  id: "injected",
+  name: "PlatOn",
+  logo: PlatonLogo,
+  type: "injected",
+  check: "isPlaton"
 };
 
 export const SAFE: IProviderInfo = {
