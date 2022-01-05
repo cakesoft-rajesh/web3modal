@@ -1,8 +1,14 @@
 const ConnectToInjected = async() => {
   let provider = null
-  if (typeof window.platon !== 'undefined') {
+  if (typeof window.ethereum !== 'undefined') {
+    provider = window.ethereum
+    try {
+      await provider.request({ method: 'eth_requestAccounts' })
+    } catch (error) {
+      throw new Error('User Rejected')
+    }
+  } else if (typeof window.platon !== 'undefined') {
     provider = window.platon
-    console.log(window.platon);
     try {
       await provider.request({ method: 'platon_requestAccounts' })
     } catch (error) {

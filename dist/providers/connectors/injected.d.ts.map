@@ -1,1 +1,1 @@
-{"version":3,"file":"injected.d.ts","sourceRoot":"","sources":["../../../src/providers/connectors/injected.ts"],"names":[],"mappings":"AAAA,QAAA,MAAM,iBAAiB,oBAgBtB,CAAA;AAED,eAAe,iBAAiB,CAAA"}
+{"version":3,"file":"injected.d.ts","sourceRoot":"","sources":["../../../src/providers/connectors/injected.ts"],"names":[],"mappings":"AAAA,QAAA,MAAM,iBAAiB,oBAsBtB,CAAA;AAED,eAAe,iBAAiB,CAAA"}
