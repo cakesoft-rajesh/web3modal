@@ -1,18 +1,19 @@
-const ConnectToPlaton = async () => {
-    let provider = null;
+const ConnectToPlaton = async() => {
+
+    let provider = null
     if (typeof window.platon !== 'undefined') {
-      provider = window.platon;
+      provider = window.platon
       try {
         await provider.request({ method: 'platon_requestAccounts' })
       } catch (error) {
-        throw new Error("User Rejected");
+        throw new Error('User Rejected')
       }
     } else if (window.web3) {
-      provider = window.web3.currentProvider;
+      provider = window.web3.currentProvider
     } else {
-      throw new Error("No Web3 Provider found");
+      throw new Error('No Web3 Provider found')
     }
-    return provider;
-  };
+    return provider
+  }
   
-  export default ConnectToPlaton;
+  export default ConnectToPlaton

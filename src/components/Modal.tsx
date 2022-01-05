@@ -16,6 +16,7 @@ declare global {
   interface Window {
     ethereum: any;
     web3: any;
+    platon:any;
     updateWeb3Modal: any;
   }
 }
