@@ -72,7 +72,7 @@ export const PLATON: IProviderInfo = {
   id: "platon",
   name: "PlatOn",
   logo: PlatonLogo,
-  type: "web",
+  type: "injected",
   check: "isPlaton"
 };
 
