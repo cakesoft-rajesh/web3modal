@@ -39,20 +39,20 @@ export const FALLBACK: IProviderInfo = {
   check: "isWeb3"
 };
 
+export const SAMURAI: IProviderInfo = {
+  id: "injected",
+  name: "Samurai",
+  logo: PlatonLogo,
+  type: "injected",
+  check: "isMetaMask"
+};
+
 export const METAMASK: IProviderInfo = {
   id: "injected",
   name: "MetaMask",
   logo: MetaMaskLogo,
   type: "injected",
   check: "isMetaMask"
-};
-
-export const SAMURAI: IProviderInfo = {
-  id: "injected",
-  name: "Samurai",
-  logo: PlatonLogo,
-  type: "injected",
-  check: "isSamurai"
 };
 
 export const SAFE: IProviderInfo = {
